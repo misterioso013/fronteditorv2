@@ -8,6 +8,7 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { GearIcon } from '@radix-ui/react-icons'
 import { DownloadZip } from './download-zip'
+import { ImportZip } from './import-zip'
 import { SettingsModal } from './settings-modal'
 
 export function Menu() {
@@ -20,6 +21,7 @@ export function Menu() {
         {/* <DropdownMenuLabel>My Account</DropdownMenuLabel> */}
         <SettingsModal />
         <DropdownMenuSeparator />
+        <ImportZip />
         <DownloadZip />
         {/* <DropdownMenuItem>Profile</DropdownMenuItem> */}
         {/* <DropdownMenuItem>Billing</DropdownMenuItem> */}

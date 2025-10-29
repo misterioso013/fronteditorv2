@@ -7,6 +7,15 @@
     "download": {
         "trigger": "Download (zip)"
     },
+    "import": {
+        "trigger": "Import (zip)",
+        "error": {
+            "invalidFile": "Invalid file. Please select a zip file.",
+            "missingFiles": "The zip file must contain at least one of: index.html, index.css, index.js, or index.md",
+            "readError": "Error reading the file. Please try again."
+        },
+        "success": "Files imported successfully!"
+    },
     "settingsModal": {
         "trigger": "Settings",
         "title": "Editor Settings",
