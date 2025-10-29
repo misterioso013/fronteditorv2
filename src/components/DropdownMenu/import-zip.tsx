@@ -48,7 +48,7 @@ export function ImportZip() {
           link.remove()
         }
 
-        // Save the entire HTML document without doctype
+        // Save the entire HTML document (doctype will be added during export)
         const htmlToSave = doc.documentElement.outerHTML
         await handleValueChange('html', htmlToSave)
         hasValidFiles = true
